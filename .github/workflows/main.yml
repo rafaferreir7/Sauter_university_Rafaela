@@ -28,3 +28,4 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/sauter-university:latest
+          tags: ${{ secrets.DOCKERHUB_PASSWORD}}/sauter-university:latest
